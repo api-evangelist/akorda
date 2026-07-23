@@ -1,22 +1,74 @@
 aid: akorda
 name: Akorda
-description: Akorda is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Akorda was a contract intelligence and contract lifecycle management (CLM)
+  startup that applied artificial intelligence and natural language processing
+  to accelerate contract negotiation, review, and management for legal and
+  procurement teams. Backed by Bloomberg Beta, the company built machine-learning
+  tooling to surface risky clauses, benchmark contract language against standards,
+  and streamline the redlining and approval workflow. Akorda has since been
+  acquired and absorbed into LegalSifter: its former domain (akorda.com) now
+  redirects to legalsifter.com, and no independent Akorda product, developer
+  portal, or public API remains. This profile is retained as a network lead and
+  reflects the acquisition rather than a live, standalone API provider.
 url: https://raw.githubusercontent.com/api-evangelist/akorda/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.legalsifter.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: legalsifter
+x-acquired-evidence: akorda.com returns 301 redirect to https://www.legalsifter.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Contract Management
+- Contract Lifecycle Management
+- Legal Technology
+- Artificial Intelligence
+- Natural Language Processing
+- Legal AI
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.legalsifter.com/
+  x-note: Successor site — akorda.com redirects here after LegalSifter acquisition.
+- type: Blog
+  url: https://www.legalsifter.com/resources?type__in=Blog
+  x-note: LegalSifter (successor) blog.
+- type: Support
+  url: https://www.legalsifter.com/support
+  x-note: LegalSifter (successor) support.
+- type: TermsOfService
+  url: https://www.legalsifter.com/terms-conditions
+  x-note: LegalSifter (successor) terms.
+- type: PrivacyPolicy
+  url: https://www.legalsifter.com/privacy
+  x-note: LegalSifter (successor) privacy policy.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
