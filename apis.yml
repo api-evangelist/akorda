@@ -12,6 +12,17 @@ description: >-
   portal, or public API remains. This profile is retained as a network lead and
   reflects the acquisition rather than a live, standalone API provider.
 url: https://raw.githubusercontent.com/api-evangelist/akorda/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
