@@ -67,6 +67,10 @@ tags_raw:
 - Acquired
 apis: []
 common:
+- type: Pricing
+  url: https://www.legalsifter.com/solutions/pricing/
+- type: Plans
+  url: plans/akorda-plans-pricing.yml
 - type: Website
   url: https://www.legalsifter.com/
   x-note: Successor site — akorda.com redirects here after LegalSifter acquisition.
