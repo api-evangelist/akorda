@@ -1,0 +1,82 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.legalsifter.com/solutions/pricing/
+sources:
+- https://www.legalsifter.com/solutions/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: LegalSifter ReviewPro list pricing; two models (consumption by contract volume, seat-based). All
+  subscriptions annual; implementation included; custom playbook work priced separately via scoping.
+plan_count: 8
+currency: USD
+plans:
+- name: Consumption – Basic
+  price_text: $2,750 per year
+  price: 2750
+  currency: USD
+  period: year
+  unit: subscription
+  included_quota: 50 contracts included; Unlimited seats
+  overage: $55 per contract
+- name: Consumption – Team
+  price_text: $7,500 per year
+  price: 7500
+  currency: USD
+  period: year
+  unit: subscription
+  included_quota: 150 contracts included; Unlimited seats
+  overage: $50 per contract
+- name: Consumption – Business
+  price_text: $18,000 per year
+  price: 18000
+  currency: USD
+  period: year
+  unit: subscription
+  included_quota: 400 contracts included; Unlimited seats
+  overage: $45 per contract
+- name: Consumption – Enterprise
+  price_text: $40,000 per year
+  price: 40000
+  currency: USD
+  period: year
+  unit: subscription
+  included_quota: 1,000 contracts included; Unlimited seats
+  overage: $40 per contract
+- name: Seat-based – Single
+  price_text: $6,000 per seat, per year
+  price: 6000
+  currency: USD
+  period: year
+  unit: seat
+  included_quota: 1 seat minimum; $6,000 total annual; Unlimited contracts
+- name: Seat-based – Team
+  price_text: $4,500 per seat, per year
+  price: 4500
+  currency: USD
+  period: year
+  unit: seat
+  included_quota: 3 seat minimum; $13,500 total annual; Unlimited contracts
+- name: Seat-based – Business
+  price_text: $4,000 per seat, per year
+  price: 4000
+  currency: USD
+  period: year
+  unit: seat
+  included_quota: 8 seat minimum; $32,000 total annual; Unlimited contracts
+- name: Seat-based – Enterprise
+  price_text: $3,500 per seat, per year
+  price: 3500
+  currency: USD
+  period: year
+  unit: seat
+  included_quota: 15 seat minimum; $52,500 total annual; Unlimited contracts
