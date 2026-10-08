@@ -80,3 +80,77 @@ plans:
   period: year
   unit: seat
   included_quota: 15 seat minimum; $52,500 total annual; Unlimited contracts
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  - seat
+  units:
+  - period
+  - seat
+  plans:
+  - name: Consumption – Basic
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - period
+    periods:
+    - year
+  - name: Consumption – Team
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - period
+    periods:
+    - year
+  - name: Consumption – Business
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - period
+    periods:
+    - year
+  - name: Consumption – Enterprise
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - period
+    periods:
+    - year
+  - name: Seat-based – Single
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - year
+  - name: Seat-based – Team
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - year
+  - name: Seat-based – Business
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - year
+  - name: Seat-based – Enterprise
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - year
