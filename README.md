@@ -64,6 +64,49 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Akorda is a company surfaced as a portfolio company of bloomberg-beta and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: bloomberg-beta
+Akorda was a contract intelligence and contract lifecycle management (CLM) startup that applied artificial intelligence and natural language processing to accelerate contract negotiation, review, and management for legal and procurement teams. Backed by Bloomberg Beta, the company built machine-learning tooling to surface risky clauses, benchmark contract language against standards, and streamline the redlining and approval workflow. Akorda has since been acquired and absorbed into LegalSifter: its former domain (akorda.com) now redirects to legalsifter.com, and no independent Akorda product, developer portal, or public API remains. This profile is retained as a network lead and reflects the acquisition rather than a live, standalone API provider.
+
+**Areas:** Company · Contract Management · Contract Lifecycle Management · Legal Tech · Artificial Intelligence · Natural Language Processing · Legal AI · Acquired
+
+## Akorda on APIs.io (historical record)
+
+Everything profiled for Akorda is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/akorda/](https://apis.io/providers/akorda/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Akorda Plans Pricing](https://apis.io/plans/akorda/akorda-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.legalsifter.com/)
+- [Pricing](https://www.legalsifter.com/solutions/pricing/)
+- [Support](https://www.legalsifter.com/support)
+- [Blog](https://www.legalsifter.com/resources?type__in=Blog)
+- [Terms of service](https://www.legalsifter.com/terms-conditions)
+- [Privacy policy](https://www.legalsifter.com/privacy)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Akorda: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/akorda/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
